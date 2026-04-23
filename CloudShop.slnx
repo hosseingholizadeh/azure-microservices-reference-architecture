@@ -5,6 +5,7 @@
   <Folder Name="/src/building-blocks/" />
   <Folder Name="/src/gateway/" />
   <Folder Name="/src/services/">
+    <Project Path="src/services/CatalogService/CatalogService.csproj" Id="85657373-af32-41e8-8828-9eae244e12e7" />
     <Project Path="src/services/IdentityService/IdentityService/IdentityService.csproj" Id="04a99147-7e77-43e5-bf72-65d5382ef704" />
   </Folder>
   <Folder Name="/src/web/" />
