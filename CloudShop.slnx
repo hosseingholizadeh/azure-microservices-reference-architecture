@@ -1,7 +1,9 @@
 <Solution>
   <Folder Name="/docs/" />
   <Folder Name="/infrastructure/" />
-  <Folder Name="/src/" />
+  <Folder Name="/src/">
+    <File Path="docker-compose.yml" />
+  </Folder>
   <Folder Name="/src/building-blocks/">
     <Project Path="src/building-blocks/EventBus/EventBus.csproj" Id="0e490c88-5ccc-4cc6-99d1-17b7250b1482" />
     <Project Path="src/building-blocks/SharedKernel/SharedKernel.csproj" Id="187a57a2-11e1-45e0-b307-472a2fe3fd03" />
