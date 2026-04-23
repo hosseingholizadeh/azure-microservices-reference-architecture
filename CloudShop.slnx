@@ -2,11 +2,18 @@
   <Folder Name="/docs/" />
   <Folder Name="/infrastructure/" />
   <Folder Name="/src/" />
-  <Folder Name="/src/building-blocks/" />
-  <Folder Name="/src/gateway/" />
+  <Folder Name="/src/building-blocks/">
+    <Project Path="src/building-blocks/EventBus/EventBus.csproj" Id="0e490c88-5ccc-4cc6-99d1-17b7250b1482" />
+    <Project Path="src/building-blocks/SharedKernel/SharedKernel.csproj" Id="187a57a2-11e1-45e0-b307-472a2fe3fd03" />
+  </Folder>
+  <Folder Name="/src/gateway/">
+    <Project Path="src/gateway/YarpGateway/YarpGateway.csproj" Id="0afe1e64-413f-423d-9798-c4cf9d103b2d" />
+  </Folder>
   <Folder Name="/src/services/">
     <Project Path="src/services/CatalogService/CatalogService.csproj" Id="85657373-af32-41e8-8828-9eae244e12e7" />
     <Project Path="src/services/IdentityService/IdentityService/IdentityService.csproj" Id="04a99147-7e77-43e5-bf72-65d5382ef704" />
+    <Project Path="src/services/NotificationService/NotificationService.csproj" Id="8171c7bd-9a06-41cd-97c8-631397d99e4f" />
+    <Project Path="src/services/OrderService/OrderService.csproj" Id="b57e80ad-9dfb-4ce2-9595-cf800bac54cc" />
   </Folder>
   <Folder Name="/src/web/" />
 </Solution>
